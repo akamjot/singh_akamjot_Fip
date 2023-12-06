@@ -45,6 +45,10 @@ Couples Resort Responsive Build
  .cr-red {
     color: #9a2018;
  }
+
+ .bold-text {
+    font-weight: bold;
+ }
  
  
  /* 2. ---Main Nav--- */
