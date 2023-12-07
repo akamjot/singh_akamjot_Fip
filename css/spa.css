@@ -115,8 +115,8 @@ Couples Resort Responsive Build
  
  /* 3. ---Main Hero Image--- */
  
- #hero {
-    background: url(../images/hero-main.jpg) no-repeat;
+ #massage_therapy {
+    background: url(../images/1.jpg) no-repeat;
     height: 200px;
  }
  
@@ -141,17 +141,17 @@ Couples Resort Responsive Build
     height: 67px;
  }
  
- #hero-heading-box {
+ #massage_therapy-heading-box {
     align-self: end;
  }
  
- .hero-img-h2, .hero-img-h3 {
+ .massage-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
     padding: 10px 15px;
     font-size: 14px;
  }
  
- .hero-img-h2 span,  .hero-img-h3 span {
+ .massage-img-h2 span,  .hero-img-h3 span {
     color: #9a2018;
     font-size: 12px;
  }
@@ -162,7 +162,7 @@ Couples Resort Responsive Build
     padding-top: 20px;
  }
  
- #hero-summary p {
+ #massage_therapy-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -278,7 +278,7 @@ Couples Resort Responsive Build
  /* 6. ---About & FAQ--- */
  
  #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
+    background: url(../images/2.jpg) no-repeat;
     height: 195px;
  }
  
@@ -296,9 +296,6 @@ Couples Resort Responsive Build
     line-height: 22px;
  }
  
- #about-us-text-column2 {
-    font-style: italic;
- }
  
  #faq-con {
     background-color: #f4f4f4;
@@ -306,18 +303,15 @@ Couples Resort Responsive Build
     padding-bottom: 30px;
  }
  
- #faq-con h2 {
-    font-size: 24px;
+ #faq-con p {
+    font-size: 15px;
     margin-bottom: 20px;
  }
- 
- #faq-con h2 span {
-    color: #9a2018;
-    font-size: 16px;
- }
+
  
  .faq-items {
     margin-bottom: 16px;
+    text-align: center;
  }
  
  .faq-items h3 {
@@ -350,7 +344,7 @@ Couples Resort Responsive Build
  /* 7. ---Contact--- */
  
  #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
+    background: url(../images/3.jpg);
     height: 195px;
  }
  
@@ -358,7 +352,7 @@ Couples Resort Responsive Build
     align-self: end;
  }
  
- #contact-hero-text {
+ #contact-hero-text p{
     margin-top: 15px;
     margin-bottom: 25px;
  }
@@ -379,41 +373,7 @@ Couples Resort Responsive Build
  
  
  
- #contact-hero-form form {
-    display: flex;
-    flex-direction: column;
- }
- 
- #contact-hero-form input, textarea {
-    padding: 22px;
-    border: 2px solid #d6d6d6;
-    background-color: #f7f7f7;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    font: inherit;
-    width: auto;
- }
- 
- #contact-hero-form textarea {
-    height: 250px;
- }
- 
- 
- 
- #contact-hero-form input[type="submit"] {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
- }
- 
- #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
- }
+
  
  
  /* 8. ---Footer--- */

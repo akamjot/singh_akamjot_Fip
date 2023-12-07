@@ -107,6 +107,10 @@ Couples Resort Responsive Build
     margin-bottom: 20px;
     max-width: 382px;
  }
+
+ .bold-text {
+   font-weight: bold;
+ }
  
  
  /* 3. ---Main Hero Image--- */
@@ -114,6 +118,11 @@ Couples Resort Responsive Build
  #hero {
     background: url(../images/hero-main.jpg) no-repeat;
     height: 200px;
+ }
+
+ #gourmetmeal {
+   background: url(../images/gourmet_meal.jpg) no-repeat;
+   height: 200px;
  }
  
  .book-now {
