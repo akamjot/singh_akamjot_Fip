@@ -120,10 +120,6 @@ Couples Resort Responsive Build
     height: 200px;
  }
 
- #gourmetmeal {
-   background: url(../images/gourmet_meal.jpg) no-repeat;
-   height: 200px;
- }
  
  .book-now {
     background-color: #9a2018;
@@ -146,7 +142,7 @@ Couples Resort Responsive Build
     height: 67px;
  }
  
- #hero-heading-box {
+ .hero-heading-box {
     align-self: end;
  }
  
@@ -167,7 +163,7 @@ Couples Resort Responsive Build
     padding-top: 20px;
  }
  
- #hero-summary p {
+ .hero-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -287,21 +283,21 @@ Couples Resort Responsive Build
     height: 195px;
  }
  
- #about-hero-heading-box {
+ .about-hero-heading-box {
     align-self: end;
  }
  
- #about-us-text {
+ .about-us-text {
     padding-bottom: 60px;
  }
  
- #about-us-text p {
+ .about-us-text p {
     font-size: 14px;
     margin-bottom: 20px;
     line-height: 22px;
  }
  
- #about-us-text-column2 {
+ .about-us-text-column2 {
     font-style: italic;
  }
  
@@ -428,7 +424,6 @@ Couples Resort Responsive Build
      background-repeat: no-repeat;
     color: #fff;
     font-size: 12px;
-    margin-top: 40px;
     padding-bottom: 80px;
  }
  
@@ -451,3 +446,119 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
+
+/*---------------------------------------------------------- DINING PAGE -------------------------------------------------------------*/
+
+ /* images for dining page */
+
+
+ #gourmetmeal {
+   background: url(../images/gourmet_meal.jpg) no-repeat;
+   height: 200px;
+ }
+
+ #gourmetwine-con {
+   background: url(../images/gourmet_wine.jpg) no-repeat;
+   height: 200px;
+ }
+
+ #gourmet-con {
+   background: url(../images/pexels-suzukii-xingfu-872835.jpg) no-repeat;
+   height: 375px;
+ }
+
+
+/*-----------------------------------------------------------SPA PAGE-----------------------------------------------------------------*/
+
+ /* Images for spa page */
+
+ #massage_therapy {
+   background: url(../images/1.jpg) no-repeat;
+   height: 200px;
+}
+
+#hot-stone-con {
+   background: url(../images/2.jpg) no-repeat;
+   height: 195px;
+}
+
+#foot-treatment-con {
+   background: url(../images/3.jpg) no-repeat;
+   height: 195px;
+}
+
+#scrubs-con {
+   background: url(../images/4.jpg) no-repeat;
+   height: 195px;
+}
+
+#algonquin-con {
+   background: url(../images/5.jpg) no-repeat;
+   height: 195px;
+}
+
+#quality {
+   background: url(../images/Group\ 24.jpg) no-repeat;
+   height: 195px;
+}
+
+
+ /* Massage Therapies */
+ #massage-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#massage-con h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+#massage-con p {
+   margin-bottom: 20px;
+}
+
+.massage-items {
+   margin-bottom: 16px;
+   text-align: center;
+}
+
+.massage-items h3 {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+
+/* Algonquin spa features */
+
+
+#spa-con p {
+   margin-bottom: 20px;
+}
+
+.spa-items {
+   margin-bottom: 16px;
+}
+
+.spa-items h3 {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+#spa-policies h2 {
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   color: #9a2018;
+}
+
+#circumstances {
+   text-align: center;
+   margin-top: -20px;
+   margin-bottom: 10px;
+   color: #9a2018;
+}
