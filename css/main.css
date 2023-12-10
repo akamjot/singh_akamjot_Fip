@@ -347,6 +347,11 @@ Couples Resort Responsive Build
     margin-top: 20px;
     margin-bottom: 20px;
  }
+
+ #faq-list-group1 p {
+   text-align: center;
+   color: #9a2018;
+ }
  
  /* 7. ---Contact--- */
  
