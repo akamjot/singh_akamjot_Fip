@@ -414,9 +414,28 @@ input, textarea {
    color: #9a2018;
  }
 
+ #faq-list-group1 li {
+   font-size: 13px;
+ }
+
+ #faq-list-group2 li {
+   font-size: 13px;
+ }
+
+input[type="checkbox"] {
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+ input[type="checkbox"]:checked + span {
+   color: #9a2018;
+ }
+
 
  input[type="checkbox"]:checked + span::after {
-   content: 1F31E;
+   content: "\1F31E";
+   font-size: 20px;
+   margin-left: 15px;
  }
 
  
