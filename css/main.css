@@ -414,9 +414,11 @@ input, textarea {
    color: #9a2018;
  }
 
+
  input[type="checkbox"]:checked + span::after {
    content: 1F31E;
  }
+
  
  /* 7. ---Contact--- */
  
